@@ -17,4 +17,8 @@ git config --global user.name ""	需要标注提交者是谁(姓名)
 
 git commit -m "xxx"	将文件保存起来(每一次保存相当于记录点)，仅本地保存。对保存做备注
 
-提交后进入vi文本编辑模式(Linux中的vim)
+如果使用【git commit】命令提交，提交后进入vi文本编辑模式(Linux中的vim)
+
+git push		提交到Github服务器上
+
+git push -f	强制推送到Github服务器上
